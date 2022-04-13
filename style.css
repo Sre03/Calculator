@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#45e9f8, #ecf321);
+    background: linear-gradient(#d1f845, #f3bb21);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,8 @@ body{
     text-align: center;
     padding-bottom: 15px;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-family: "Cambria", serif;
 }
 
 .container{
@@ -33,7 +34,8 @@ body{
 .container input[type="text"]{
     width: 100%;
     padding: 8px;
-    font-size: 20px;
+    font-size: 28px;
+    font-family: "Cambria", serif;
     outline: none;
     text-align: right;
     height: 50px;
@@ -45,7 +47,8 @@ body{
 .container input[type="button"]{
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: "Cambria", serif;
     cursor: pointer;
     height: 65px;
     color: white;
@@ -55,5 +58,5 @@ body{
     margin-top: 15px;
 }
 .container input[type="button"]:hover{
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.2);
 }
