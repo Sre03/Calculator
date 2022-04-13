@@ -10,6 +10,7 @@ inputs.forEach(inp => {
         }
         else if(text == "="){
             answer.value = eval(screenvalue);
+            screenvalue = answer.value;
         }
         else if(text == "DEL"){
             answer.value = answer.value.substr(0,answer.value.length -1);
