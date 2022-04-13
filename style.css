@@ -29,3 +29,28 @@ body{
     border-radius: 12px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.15);
 }
+
+.container input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+    text-align: right;
+    height: 50px;
+    color: white;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+.container input[type="button"]{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    height: 65px;
+    color: white;
+    width: calc(100% /4 - 5px);
+    background: transparent;
+    border-radius: 12px;
+    margin-top: 15px;
+}
