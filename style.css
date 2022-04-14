@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    margin-bottom: 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -7,7 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#d1f845, #f3bb21);
+    background: linear-gradient(#f80404, #050000);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +17,7 @@ body{
 
 .name{
     width: 360px;
+    height: 110px;
     text-align: center;
     padding-bottom: 15px;
     color: white;
@@ -26,9 +28,9 @@ body{
 .container{
     width: 360px;
     padding: 15px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.2);
     border-radius: 12px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 }
 
 .container input[type="text"]{
@@ -38,10 +40,10 @@ body{
     font-family: "Cambria", serif;
     outline: none;
     text-align: right;
-    height: 50px;
+    height: 75px;
     color: white;
     background: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255,255,255,0.25);
 }
 
 .container input[type="button"]{
