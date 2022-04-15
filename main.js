@@ -15,6 +15,9 @@ inputs.forEach(inp => {
         else if(text == "DEL"){
             answer.value = answer.value.substr(0,answer.value.length -1);
         }
+        else if(text=="CE"){
+            
+        }
         else{
             screenvalue += text;
             answer.value = screenvalue;
