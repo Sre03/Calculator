@@ -35,10 +35,6 @@ inputs.forEach(inp => {
             screenvalue = eval(screenvalue)**(1/2);
             answer.value = screenvalue;
         }
-        else if(text=="+/-"){
-            screenvalue += "-";
-            answer.value = screenvalue;
-        }
         else if(text=="sin x"){
             screenvalue = Math.sin(eval(screenvalue));
             answer.value = screenvalue;
